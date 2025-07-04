@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f2f2f2, #d4e0f0);
+  direction: rtl;
+  text-align: center;
+  padding: 40px;
+  color: #333;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+#countdown {
+  font-size: 1.5rem;
+  color: #ff6347;
+  margin: 20px 0;
+}
